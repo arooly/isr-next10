@@ -1,5 +1,5 @@
 {
-  "AppSyncApiName": "next10blog",
+  "AppSyncApiName": "amplifynextali",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false
 }

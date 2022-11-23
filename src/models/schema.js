@@ -14,14 +14,14 @@ export const schema = {
                     "name": "content",
                     "isArray": false,
                     "type": "String",
-                    "isRequired": false,
+                    "isRequired": true,
                     "attributes": []
                 },
                 "postID": {
                     "name": "postID",
                     "isArray": false,
                     "type": "ID",
-                    "isRequired": false,
+                    "isRequired": true,
                     "attributes": []
                 },
                 "createdAt": {
@@ -110,7 +110,9 @@ export const schema = {
                     "isArrayNullable": true,
                     "association": {
                         "connectionType": "HAS_MANY",
-                        "associatedWith": "postID"
+                        "associatedWith": [
+                            "postID"
+                        ]
                     }
                 },
                 "createdAt": {
@@ -158,5 +160,6 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "40fcfafc759a1158b4ad85e3a7ba5bc1"
+    "codegenVersion": "3.3.2",
+    "version": "03201127979c1b4c9377678bb76b8629"
 };

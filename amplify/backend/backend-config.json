@@ -1,8 +1,9 @@
 {
   "api": {
-    "next10blog": {
+    "amplifynextali": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
+      "dependsOn": [],
       "output": {
         "authConfig": {
           "defaultAuthentication": {
@@ -19,14 +20,6 @@
           ]
         }
       }
-    }
-  },
-  "function": {
-    "next10bloge53fc67d": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda",
-      "dependsOn": []
     }
   }
 }
